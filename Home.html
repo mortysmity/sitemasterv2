@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <!--
+  <meta name="viewport" content="width=device-width, user-scalable=no">-->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="Assets/styles/Home.css">
+
+</head>
+
+<body>
+
+  <nav class="MargemMenu">
+    <ul class="Menu MenuDireito">
+      <li class="itemMenu ItemDireito ss">
+        <a href="#">Minha Conta</a>
+      </li>
+      <li class=" itemMenu ItemDireito ss">
+        <a href="#">Login</a>
+      </li>
+    </ul>
+  </nav>
+
+  <ul class="Menu MenuPrincipal">
+    <li class="itemMenu LogoTipo">
+      <a href="Home.html">
+        <img src="Imagens/logo.png" alt="Logo Marvel" class="imgLogo">
+      </a>
+    </li>
+
+    <li class="itemMenu">
+      <a href="#">
+        <i class="fab fa-facebook-square Icone"></i>
+      </a>
+    </li>
+
+    <li class="itemMenu">
+      <a href="#">
+        <i class="fab fa-twitter-square Icone"></i>
+      </a>
+    </li>
+
+    <li class="itemMenu">
+      <a href="#">
+        <i class="fab fa-instagram Icone"></i>
+      </a>
+    </li>
+    <li class="MenuPrincipal-item-direito itemMenu">
+      <i class="fas fa-cart-plus Icone"></i>
+    </li>
+
+    <li class="MenuPrincipal-item-direito itemMenu">
+      <input type="text" class="textBox" placeholder="Busque aqui...">
+      <i class="fas fa-search"></i>
+    </li>
+  </ul>
+
+  <div class="menuLojaResponsivo">
+    <a href="#">
+      <i class="fas fa-cart-plus Icone"></i>
+    </a>
+    <a href="#" class="BotaoAbrirMenu">
+      <i class="fas fa-align-justify"></i>
+    </a>
+  </div>
+
+  <ul class="MenuLoja">
+    <li class="MenuLoja-item itemMenu">
+      <a href="#">loja</a>
+    </li>
+
+    <li class="MenuLoja-item  itemMenu">
+      <a href="#">Noticias</a>
+    </li>
+
+    <li class="MenuLoja-item  itemMenu">
+      <a href="#">games</a>
+    </li>
+
+    <li class="MenuLoja-item  itemMenu">
+      <a href="#">Personagens</a>
+    </li>
+
+    <li class="MenuLoja-item  itemMenu">
+      <a href="#">cosplay</a>
+    </li>
+
+    <li class="MenuLoja-item  itemMenu">
+      <a href="#">Acessórios</a>
+    </li>
+    <li class="MenuLoja-item  itemMenu">
+      <a href="#">Decoração</a>
+    </li>
+
+    <li class="MenuLoja-item  itemMenu">
+      <a href="#">controle</a>
+    </li>
+
+    <li class="MenuLoja-item  itemMenu Colections">
+      <a href="#">Coleções</a>
+    </li>
+  </ul>
+
+  <div class="slide">
+    <div class="slide-Visualizar SlidePrincipal">
+
+      <div class="slide-Grupo SlidePrincipal">
+
+        <div class="slide-Imagem SlidePrincipal">
+          <img src="Imagens/banerA.png" alt="Pantera Negra" class="SlidePrincipal">
+        </div>
+
+        <div class="slide-Imagem SlidePrincipal">
+          <img src="Imagens/banerb.png" alt="Captain American" class="SlidePrincipal">
+        </div>
+
+        <div class="slide-Imagem SlidePrincipal">
+          <img src="Imagens//banerc.png" alt="Homem Aranha" class="SlidePrincipal">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-Botao"></div>
+
+  <div class="BlocoTitulo">
+    <span class="Titulo">Escolha o seu jogo</span>
+  </div>
+
+  <div class="ContainerFlex">
+
+    <div class="Filtro">
+      <h3 class="titulo-Filtro Series">categoria</h3>
+      <div class="filtro-Series">
+        <div class="flitro-Botao">
+          <!--Essa classe so é usada para o javascript
+      Botoes de filtro feitos no java script são adicionado aqui-->
+        </div>
+      </div>
+
+      <h3 class="titulo-Filtro">Data</h3>
+      <!--Ainda não implementado-->
+      <h3 class="titulo-Filtro">Desenvolvedores</h3>
+      <!--Ainda não implementado-->
+    </div>
+
+    <div class="produtos">
+
+      <div class="produtos-Quadrinho" data-tags="Aquaman">
+        <a href="Produtos.html" class="QuadrinhoAquaman">
+          <img src="Imagens/Hq/zelda.png" alt="" class="produto-Quadrinhos-Imagem">
+        </a>
+        <div class="descricao">
+          <h4 class="NomeQuandrinho">
+            <a href="Produtos.html">zelda breath of the wild</a>
+          </h4>
+          <span>Plataformas: Nintendo Switch, Wii U</span>
+        </div>
+      </div>
+
+      <div class="produtos-Quadrinho" data-tags="Star Wars">
+        <a href="#">
+          <img src="Imagens/Hq/Star_Wars_Jedi_Fallen_Order_capa.png" alt="" class="produto-Quadrinhos-Imagem">
+        </a>
+        <div class="descricao">
+          <h4 class="NomeQuandrinho">
+            <a href="#">Star Wars Jedi: Fallen Order</a>
+          </h4>
+          <span>Plataformas: PlayStation 4, Xbox One, Microsoft Windows</span>
+        </div>
+      </div>
+
+      <div class="produtos-Quadrinho" data-tags="Guerra Civil">
+        <a href="#">
+          <img src="Imagens/Hq/bobesponja-jogo-capa.jpg" alt="" class="produto-Quadrinhos-Imagem">
+        </a>
+        <div class="descricao">
+          <h4 class="NomeQuandrinho">
+            <a href="#">Bob Esponja: Um herói fora d'água</a>
+          </h4>
+          <span>Plataformas: PlayStation 4, Xbox One, Microsoft Window</span>
+        </div>
+      </div>
+
+      <div class="produtos-Quadrinho" data-tags="Aquaman">
+        <a href="#">
+          <img src="Imagens/Hq/zelda ocerina of time.jpg" alt="" class="produto-Quadrinhos-Imagem">
+        </a>
+        <div class="descricao">
+          <h4 class="NomeQuandrinho">
+            <a href="#">Ocarina of Time</a>
+          </h4>
+          <span>plataforma apenas download</span>
+        </div>
+      </div>
+
+      <div class="produtos-Quadrinho" data-tags="Homem Formiga">
+        <a href="#">
+          <img src="Imagens/Hq/marvels-avengers-exclusive-digital-edition.jpg" alt="" class="produto-Quadrinhos-Imagem">
+        </a>
+        <div class="descricao">
+          <h4 class="NomeQuandrinho">
+            <a href="#">Avengers</a>
+          </h4>
+          <span>Plataformas: PlayStation 4, Xbox One, Google Stadia, Microsoft Windows</span>
+        </div>
+      </div>
+
+      <div class="produtos-Quadrinho" data-tags="Thing">
+        <a href="#">
+          <img src="Imagens/Hq/Marvel-in-one.jpg" class="produto-Quadrinhos-Imagem">
+        </a>
+        <div class="descricao">
+          <h4 class="NomeQuandrinho">
+            <a href="#">Thing human torch</a>
+          </h4>
+          <span>Edição: #1</span>
+        </div>
+      </div>
+
+      <div class="produtos-Quadrinho" data-tags="Quarteto Fantastico">
+        <a href="#">
+          <img src="Imagens/Hq/QFVsDoom-1.jpg" alt="" class="produto-Quadrinhos-Imagem">
+        </a>
+        <div class="descricao">
+          <h4 class="NomeQuandrinho">
+            <a href="#">Quarteto fantastico dr doom</a>
+          </h4>
+          <span>Edição: #1</span>
+        </div>
+      </div>
+
+      <div class="produtos-Quadrinho" data-tags="Homem de Ferro">
+        <a href="#">
+          <img src="Imagens/Hq/Invencible-iron-men.jpg" class="produto-Quadrinhos-Imagem">
+        </a>
+        <div class="descricao">
+          <h4 class="NomeQuandrinho">
+            <a href="#">Homem de ferro, guerra civil II</a>
+          </h4>
+          <span>Edição: #14</span>
+        </div>
+      </div>
+
+      <div class="produtos-Quadrinho" data-tags="Quarteto Fantastico">
+        <a href="#">
+          <img src="Imagens/Hq/QFantastic-1.jpg" alt="" class="produto-Quadrinhos-Imagem">
+        </a>
+        <div class="descricao">
+          <h4 class="NomeQuandrinho">
+            <a href="#">Quarteto fantastico</a>
+          </h4>
+          <span>Edição: #1</span>
+        </div>
+      </div>
+
+      <div class="produtos-Quadrinho" data-tags="Star Wars">
+        <a href="#">
+          <img src="Imagens/Hq/star wars merda.jpg" alt="" class="produto-Quadrinhos-Imagem">
+        </a>
+        <div class="descricao">
+          <h4 class="NomeQuandrinho">
+            <a href="#">Star Wars Battlefront</a>
+          </h4>
+          <span>Plataformas: PlayStation 4, Xbox One, Microsoft Window</span>
+        </div>
+      </div>
+
+      <div class="produtos-Quadrinho" data-tags="Homem aranha">
+        <a href="#">
+          <img src="Imagens/Hq/HomemAranha-15.jpg" alt="" class="produto-Quadrinhos-Imagem"><!--Mudar-->
+        </a>
+        <div class="descricao">
+          <h4 class="NomeQuandrinho">
+            <a href="#">Homem aranha, amazing fantasy</a>
+          </h4>
+          <span>Edição: #15</span>
+        </div>
+      </div>
+
+      <div class="produtos-Quadrinho" data-tags="Homem de Ferro">
+        <a href="#">
+          <img src="Imagens/Hq/IronMan-2.jpg" class="produto-Quadrinhos-Imagem">
+        </a>
+        <div class="descricao">
+          <h4 class="NomeQuandrinho">
+            <a href="#">Homem de ferro</a>
+          </h4>
+          <span>Edição: #2</span>
+        </div>
+      </div>
+
+      <div class="produtos-Quadrinho" data-tags="Homem aranha">
+        <a href="#">
+          <img src="Imagens/Hq/superior-spider-man.jpg" class="produto-Quadrinhos-Imagem">
+        </a>
+        <div class="descricao">
+          <h4 class="NomeQuandrinho">
+            <a href="#">O superior homem aranha</a>
+          </h4>
+          <span>Edição: #31</span>
+        </div>
+      </div>
+
+      <div class="produtos-Quadrinho" data-tags="Thor">
+        <a href="#">
+          <img src="Imagens/Hq/might-thor.jpg" class="produto-Quadrinhos-Imagem">
+        </a>
+        <div class="descricao">
+          <h4 class="NomeQuandrinho">
+            <a href="#">The mighty thor</a>
+          </h4>
+          <span>Edição: #17</span>
+        </div>
+      </div>
+
+
+      <div class="produtos-Quadrinho" data-tags="Thing">
+        <a href="#">
+          <img src="Imagens/Hq/Marvel-in-one1.jpg" class="produto-Quadrinhos-Imagem">
+        </a>
+        <div class="descricao">
+          <h4 class="NomeQuandrinho">
+            <a href="#">Thing human torch</a>
+          </h4>
+          <span>Edição: #2</span>
+        </div>
+      </div>
+
+      <div class="produtos-Quadrinho" data-tags="Quarteto Fantastico">
+        <a href="#">
+          <img src="Imagens/Hq/QF-1.jpg" alt="" class="produto-Quadrinhos-Imagem">
+        </a>
+        <div class="descricao">
+          <h4 class="NomeQuandrinho">
+            <a href="#">Quarteto fantastico, galactus hungers</a>
+          </h4>
+          <span>Edição: #1</span>
+        </div>
+      </div>
+
+      <div class="produtos-Quadrinho" data-tags="Homem de Ferro">
+        <a href="#">
+          <img src="Imagens/Hq/iron-man.jpg" class="produto-Quadrinhos-Imagem">
+        </a>
+        <div class="descricao">
+          <h4 class="NomeQuandrinho">
+            <a href="#">Homem de ferro</a>
+          </h4>
+          <span>Edição: #14</span>
+        </div>
+      </div>
+
+      <div class="produtos-Quadrinho" data-tags="Star Wars">
+        <a href="#">
+          <img src="Imagens/Hq/star war lego.jpg" class="produto-Quadrinhos-Imagem">
+        </a>
+        <div class="descricao">
+          <h4 class="NomeQuandrinho">
+            <a href="#">Lego Star Wars: O Despertar da Força</a>
+          </h4>
+          <span>Plataformas: Android, Microsoft Window</span>
+        </div>
+      </div>
+
+      <div class="produtos-Quadrinho" data-tags="Arqueiro Verde">
+        <a href="#">
+          <img src="Imagens/Hq/GreenArrow.jpg" class="produto-Quadrinhos-Imagem">
+        </a>
+        <div class="descricao">
+          <h4 class="NomeQuandrinho">
+            <a href="#">Arqueiro verde</a>
+          </h4>
+          <span>Edição: #42</span>
+        </div>
+      </div>
+
+      <div class="produtos-Quadrinho" data-tags="Aquaman">
+        <a href="#">
+          <img src="Imagens/Hq/zeldagameguide.jpg" alt="" class="produto-Quadrinhos-Imagem">
+        </a>
+        <div class="descricao">
+          <h4 class="NomeQuandrinho">
+            <a href="#">The Legend of Zelda: Link's Awakening</a>
+          </h4>
+          <span>Plataforma: Nintendo Switch</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Ativar">Mostrar Tudo</div>
+
+  <!--Conteiner flex-->
+  <div class="Rodape">
+    <nav>
+      <ul class="Categoria Links-Rodape">
+        <li class="itemRodape">
+          <h1 class="tituloRodape">Categorias</h1>
+        </li>
+        <li class="itemRodape">
+          <a href="#">Shop</a>
+        </li>
+        <li class="itemRodape">
+          <a href="#">Noticias</a>
+        </li>
+        <li class="itemRodape">
+          <a href="#">Comics</a>
+        </li>
+        <li class="itemRodape">
+          <a href="#">Personagens</a>
+        </li>
+        <li class="itemRodape">
+          <a href="#">Roupas</a>
+        </li>
+        <li class="itemRodape">
+          <a href="#">Acessórios</a>
+        </li>
+        <li class="itemRodape">
+          <a href="#">Decoração</a>
+        </li>
+        <li class="itemRodape">
+            <a href="#">Entreterimento</a>
+          </li>
+      
+          <li class="itemRodape">
+            <a href="#">Coleções</a>
+          </li>
+      
+    
+      
+      </ul>
+      <ul class="Conteudo Links-Rodape">
+        <li class="itemRodape">
+          <h1 class="tituloRodape">Conteudo</h1>
+        </li>
+
+        <li class="itemRodape">
+          <a href="#">Dúvidas Frequentes</a>
+        </li>
+
+        <li class="itemRodape">
+          <a href="#">Fale Conosco</a>
+        </li>
+
+        <li class="itemRodape">
+          <a href="#">Formas de pagamento</a>
+        </li>
+
+        <li class="itemRodape">
+          <a href="#">Nossa Empresa</a>
+        </li>
+
+        <li class="itemRodape">
+          <a href="#">Política de entregas</a>
+        </li>
+
+        <li class="itemRodape">
+          <a href="#">Política e trocas e Devoluçoes</a>
+        </li>
+      </ul>
+
+      <ul class="Links-Rodape Contatos">
+        <li class="itemRodape">
+          <h1 class="tituloRodape">Contatos</h1>
+        </li>
+        <li class="itemRodape">
+          <i class="fab fa-whatsapp"></i>
+          <a href="#">
+            (99) 9999-999
+          </a>
+        </li>
+        <li class="itemRodape">
+          <i class="far fa-envelope"></i>
+          <a href="#">
+            Email: JmArts@commerce.com.br
+          </a>
+        </li>
+      </ul>
+
+      <ul class="Links-Rodape RedesSociais">
+        <li class="itemRodape">
+          <h1 class="tituloRodape">Redes Sociais</h1>
+        </li>
+        <li class="itemRodape">
+          <i class="fab fa-facebook-square IconeRodape Icone"></i>
+          <a href="#">Curta a JMarts no facebook</a>
+        </li>
+
+        <li class="itemRodape">
+          <i class="fab fa-twitter-square IconeRodape Icone"></i>
+          <a href="#">Siga JMarts no twitter</a>
+        </li>
+        <li class="itemRodape">
+          <i class="fab fa-instagram IconeRodape Icone"></i>
+          <a href="#">JMarts no youtube</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="Assets\scripts\Home.js"></script>
+</body>
+</html>
